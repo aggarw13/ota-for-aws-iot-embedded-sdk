@@ -115,7 +115,7 @@ jobs:
         uses: aggarw13/CI-CD-Github-Actions/formatting@formatting/take-input-parameter-for-excluding-files
         with:
           path: ./
-          exclude-files: pages.dox
+          exclude-files: docs/doxygen/pages.dox
 
   git-secrets:
     runs-on: ubuntu-latest
